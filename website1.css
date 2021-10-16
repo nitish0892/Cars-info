@@ -1,0 +1,88 @@
+body{height: 100vh;
+margin: 0px;}
+
+header{background:url("c.png") no-repeat ;
+		background-size: cover;
+		background-position:0 40%;
+		width: 100%;
+		height: 25%;
+		margin: 0px;
+	}
+
+header h1{color: limegreen;
+margin: 0px;
+padding-top: 45px;
+padding-left: 5px;
+font-family: verdana;
+font-size: 5vw;
+letter-spacing: 2px;}	
+
+
+nav{width: 100%;
+	height: 9%;
+	background:linear-gradient(45deg,teal,firebrick);
+overflow: hidden;}
+
+nav a{text-decoration: none;
+      font-size: 25px;
+      font-family: arial;
+      color: white;
+      padding-top: 12px;
+      display: inline-block;
+      width: 12%;
+      text-align: center;
+      margin: 0px;
+      height: 100%;
+      
+  }
+
+  nav a:hover{background-color: white;
+  				color: teal;}
+
+
+
+          a.active{background-color: white;
+          color: teal;
+            
+          }
+
+
+ section {width: 100%;
+ 			height: 66%;
+ 	background:url('c1.jpg');
+    background-size: 100% 160%;
+    box-sizing: border-box;
+		padding-top: 50px;} 
+
+    section article{width: 80%;
+    	height: 90%;
+    	margin: 0px auto;
+    	box-shadow: 0 0 30px white;
+    	background-color: rgba(0,0,0,0.8);
+    	border-radius: 20px;
+    	padding: 9px;
+    	letter-spacing: 1px;}	
+
+
+    	p{color: orange;
+    		font-size: 30px;
+    		text-align: justify;
+    		font-family: fantasy;
+    		}			
+
+
+@media (max-width: 1300px)
+{
+	nav a{display: block;
+		margin: 0 auto;
+		width: 100%;}
+	nav{overflow: none;
+		height: auto;}
+
+		section{height: auto;
+			background-size: cover;
+			padding-bottom: 30px;}
+
+}
+
+
