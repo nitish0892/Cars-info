@@ -27,7 +27,7 @@ header{background:url('n.jpg') ;
 overflow: hidden;}
 
 nav a{text-decoration: none;
-      font-size: 25px;
+      font-size: 3vh;
       font-family: arial;
       color: white;
       padding-top: 12px;
