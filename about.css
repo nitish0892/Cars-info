@@ -52,7 +52,7 @@ section {width: 100%;
     background-size: 100% 160%;
     box-sizing: border-box;
     padding-top: 50px;
-  padding-bottom: 15px;} 
+  padding-bottom: 25px;} 
 
     section article{width: 70%;
       height: auto;
@@ -73,7 +73,7 @@ section {width: 100%;
 
 
       p{color: dodgerblue;
-        font-size: 25px;
+        font-size: 27px;
         text-align: justify;
         font-family: cursive;
         }     
