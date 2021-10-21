@@ -85,6 +85,16 @@ nav a{text-decoration: none;
 
 }
 
+@media (max-width: 980px)
+{
+	p{font-size:47px;}
+}
+
+@media (max-width: 650px)
+{
+	p{font-size:30px;}
+}
+
 
 
 
