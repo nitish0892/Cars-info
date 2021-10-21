@@ -87,7 +87,8 @@ nav a{text-decoration: none;
 
 @media (max-width: 500px)
 {
-	p{font-size: 6vh;}
+	p{font-size: 6vh;
+	color:red;}
 }
 
 
